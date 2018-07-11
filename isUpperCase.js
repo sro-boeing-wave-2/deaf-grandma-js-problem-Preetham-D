@@ -7,12 +7,5 @@
  * @param {string} s The string to be checked
  * @returns {boolean}
  */
-const isUppercase = (s) => {
-  let a = false;
-  if (s === s.toUpperCase()) {
-    a = true;
-  }
-  return (a);
-};
-
+const isUppercase = s => (s === s.toUpperCase());
 module.exports = isUppercase;
